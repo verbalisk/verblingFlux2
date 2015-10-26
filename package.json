@@ -1,0 +1,26 @@
+{
+  "name": "flux-challenge-verbling-fun",
+  "version": "1.0.0",
+  "description": "dguillamot verbling flux challenge fun submission 2015-10-26. added firebase chat feature. just playing around with the codebase",
+  "author": {
+    "name": "Daniel Guillamot",
+    "email": "whiletrue@gmail.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "babel-loader": "^5.3.2",
+    "classnames": "^2.2.0",
+    "firebase": "^2.3.1",
+    "flummox": "https://github.com/verbling/flummox/tarball/master",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "superagent": "^1.4.0",
+    "ws": "^0.8.0"
+  }
+}
